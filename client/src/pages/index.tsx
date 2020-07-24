@@ -4,7 +4,7 @@ type Props = {
   title: string
 }
 
-export default function Home({ title = "Boilerplate Next App" }: Props) {
+export default function Home({ title = 'Boilerplate Next App' }: Props) {
   return (
     <div className="container">
       <Head>
